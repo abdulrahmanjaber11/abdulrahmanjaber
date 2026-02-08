@@ -12,10 +12,44 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    color: #333;
+    color: rgb(86, 179, 236);
     line-height: 1.6;
 }
 
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 100px;
+    align-items: center;
+}
+.hero-section .data{
+    width: 45%;
+}
+.hero-section .data h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.hero-section .data p{
+    color: white;
+     padding: 15px 0;
+     font-size: 16px;
+     margin-top: 10px;
+    }
+.hero-section .data button{
+    background-color:blue;
+    color: white;
+    padding: 15px 30px ;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor:pointer ;
+}
+.hero-section img{
+    width:400px;
+    height: 400px;
+    border-radius: 50%;
+}
 /* NAV */
 .nav {
     display: flex;
